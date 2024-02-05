@@ -1,0 +1,35 @@
+https://httpbin.org/#/Cookies
+
+Instructions for Setting up Python and PyCharm Editor
+- Install python.exe
+https://www.python.org/downloads/
+
+- Make sure you note Python Installation path in yout machine
+It would be like:
+C:\Users\loggedUser\AppData\Local|Programs\Python\PythonXXX
+
+- Set Python home System VAriables
+
+- Check if Python is successfully installed
+python --version
+
+What is PIP?
+pip is the standard package manager for Python. It allows you to install and manage additional packages that are not part of the Python standard library
+
+Example: requests, allure-behave
+pip install packageName
+
+To verify if package is successfully installed
+pip show packageName
+
+Install Pycharm editor
+
+BDD
+- Python does not use Cucumber, Python uses Behave
+https://cucumber.io/docs/installation/
+
+https://behave.readthedocs.io/en/latest/
+
+
+To install Behave
+- pip install behave
