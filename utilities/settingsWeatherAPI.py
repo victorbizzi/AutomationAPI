@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utilities.randomCity import capital_city
 
 
-with open('../utilities/api_key.txt', 'r') as file:
+with open('utilities/api_key.txt', 'r') as file:
     API_KEY = file.read().strip()
 se = requests.session()
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
